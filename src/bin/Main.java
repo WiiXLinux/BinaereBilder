@@ -112,9 +112,12 @@ public class Main {
 
 			}
 		}
+		overmapped.save("1+2.png");
 
 		PictureViewer show = new PictureViewer(overmapped.getPicture());
 		show.show();
+
+
 	}
 
 }
